@@ -1,0 +1,12 @@
+[package]
+name = "ChainJournal"
+version = "1.0.0"
+edition = "2024.beta"
+
+[dependencies]
+AptosFramework = { local = "../aptos-core/aptos-move/framework/aptos-framework" }
+AptosStdlib = { local = "../aptos-core/aptos-move/framework/aptos-stdlib" }
+AptosToken = { local = "../aptos-core/aptos-move/framework/aptos-token" }
+
+[addresses]
+ChainJournal = "0x123"
